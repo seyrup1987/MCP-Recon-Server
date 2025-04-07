@@ -1,0 +1,9 @@
+{
+    "client_id": "Reddit Client ID",
+    "client_secret": "Reddit Client Secret",
+    "user_agent": "grokCrawler:v1.0 by /u/seyrup",
+    "username": "Reddit Username Here",
+    "password": "@Reddit Password Here",
+    "github_token": "Github Token Here",
+    "openAIAPIKey": "skOpen API Key here"
+}

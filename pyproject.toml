@@ -1,0 +1,36 @@
+[project]
+name = "pentest-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+ "aiodns>=3.2.0",
+    "aiohttp>=3.11.16",
+    "backoff>=2.2.1",
+    "bs4>=0.0.2",
+    "dnspython>=2.7.0",
+    "duckduckgo-search>=2025.4.1",
+    "fastapi>=0.115.12",
+    "langchain>=0.3.23",
+    "langchain-chroma>=0.2.2",
+    "langchain-core>=0.3.50",
+    "langchain-ollama>=0.3.0",
+    "mcp[cli]>=1.6.0",
+    "praw>=7.8.1",
+    "pygithub>=2.6.1",
+    "pytz>=2025.2",
+    "scapy>=2.6.1",
+    "sse-starlette>=2.2.1",
+    "tldextract>=5.1.3",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.34.0",
+    ]
+
+[dependency-groups]
+dev = [
+    "pentest-mcp-server",
+]
+
+[tool.uv.sources]
+pentest-mcp-server = { workspace = true }
