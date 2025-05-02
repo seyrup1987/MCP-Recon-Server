@@ -1,0 +1,10 @@
+{
+    "client_id": "Reddit App Client-Id",
+    "client_secret": "Reddit App Client-Secret",
+    "user_agent": "grokCrawler:v1.0 by /u/Rule_Curious",
+    "username": "Reddit Username Here",
+    "password": "Reddit Password Here",
+    "github_token": "github_token_here",
+    "openAIAPIKey": "Open AI Key Here",
+    "googleAIStudipAPIKey":"Googele Studio API key Here"
+}

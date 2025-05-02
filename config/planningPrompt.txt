@@ -1,0 +1,25 @@
+ “Problem”: “get a list of all cities  in the country of USA and enumerate their bus stations.”
+"Resources": !!CHAT HISTORY!!
+“Tools”: {functions}
+"Function_Call_Format": [func_name1(params_name1=params_value1, params_name2=params_value2...), func_name2(params)].
+“Solution”: [
+    {
+        "prompt": "get a list of cities  in USA using the GetCityList tool",
+    }
+    {
+        "prompt": "gather the list of cities from the prvious replies",
+    }
+    {
+        “prompt”: “get a list of bus stations for New York using the tool BusStationEnumerator”.
+    }
+    {
+        “prompt”: “get a list of bus stations for San Diego using the tool BusStationEnumerator”.
+    }
+    {
+        “prompt”: “get a list of bus stations for Boston using the tool BusStationEnumerator”.
+    }
+    {
+        “prompt”: “get a list of bus stations for Chicago using the tool BusStationEnumerator”.
+    }
+    ...
+    ]
